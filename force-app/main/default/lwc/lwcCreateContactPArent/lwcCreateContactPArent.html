@@ -1,0 +1,7 @@
+<template>
+    <lightning-card title="LWC Create Contact">
+        <p>FirstName is: <span>{firstName}</span></p>
+        <c-lwc-create-contact oncondetails={handleEvent}></c-lwc-create-contact>
+        <lightning-button name="callChild" variant="basic" label="callchild" onclick={passValue} ></lightning-button>
+    </lightning-card>
+</template>
